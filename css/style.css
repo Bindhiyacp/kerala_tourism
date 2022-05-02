@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     color: white;
     background-color: #2C353C;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Firisholidays.com%2Fkeralatourism%2Fkerala-images-photos%2F&psig=AOvVaw2W9V9wTGiFSsbaCqcHdi0P&ust=1651505752021000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCJmdXQvvcCFQAAAAAdAAAAABAq");
+    background-image: url("https://media.istockphoto.com/photos/exploring-the-tea-plantation-picture-id1140618561?b=1&k=20&m=1140618561&s=170667a&w=0&h=1WH1_PMMNHDDWNkoXE31PoMchnxmggTPvesNh6wRJvY=");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -99,7 +99,18 @@ p { line-height: 1.9; }
     margin: 6px;
     cursor: pointer;
 }
+.carouselExampleSlidesOnly
+{
+   size: 130px;
+   opacity: 20%;
 
+    
+        position: left;
+        top: 0px;
+        right: 0px;
+        }
+        
+  
 
 .tm-bg-control.active,
 .tm-bg-control:hover {
@@ -134,9 +145,10 @@ p { line-height: 1.9; }
 
 .tm-content {
     max-width: 660px;
-    margin-top: 50px;
+    margin-top: 0px;
     padding-right: 20px;
 }
+
 
 .tm-about { max-width: 525px; }
 
@@ -318,11 +330,13 @@ textarea {
 
         padding-top: 40px;
         padding-left: 30px;
+        font-size: large;
     }
 
     .tm-col-footer {
         padding-left: 10px;
         padding-right: 10px;
+        font-size: large;
     }
 }
 
